@@ -30,7 +30,7 @@ Exported images are saved in the same directory as the executable.
 
 ## Screenshots
 
-![Drawing](screenshots/drawing.png)
+![Drawing](Screenshots/drawing.png)
 
 ---
 
