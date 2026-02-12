@@ -31,12 +31,8 @@ void DrawCircle(SDL_Surface *surface, Circle circle, Uint32 pixel) {
   }
 }
 
-void exportImg(SDL_Surface surface, char* path) {
-  enum TinyPngOut_Status status;
-  struct TinyPngOut writer;
-  FILE *file = fopen(path, "w");
-  status = TinyPngOut_init(&writer, WIDTH, HEIGHT, file);
-  TinyPngOut_write(&writer, surface.pixels, WIDTH * HEIGHT);
+void exportImg(SDL_Surface *surface, char* path) {
+  SDL_SaveBMP(surface, path);
 }
 
 int main() {
@@ -80,7 +76,7 @@ int main() {
     }
     if (event.type == SDL_KEYDOWN) {
       if (event.key.keysym.sym == SDLK_s && ctrl)
-        exportImg(*surface, "./img.png");
+        exportImg(surface, "./img.png");
       else if (event.key.keysym.sym == SDLK_LCTRL) 
         ctrl = true;
     }
