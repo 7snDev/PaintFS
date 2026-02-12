@@ -70,4 +70,4 @@ Current limitations and planned improvements:
 
 ## License
 
-![MIT License](LICENSE)
+[MIT License](LICENSE)
