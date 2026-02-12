@@ -61,7 +61,6 @@ make clean
 
 Current limitations and planned improvements:
 
-- Fix PNG exporting issues  
 - GPU-accelerated rendering (SDL renderer instead of surface rendering)  
 - Undo / redo system  
 - Improved exporting workflow  
