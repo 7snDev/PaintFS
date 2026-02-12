@@ -1,7 +1,7 @@
 ## PaintFS
 
 PaintFS is a minimal paint application written in **C using SDL2**.  
-It supports basic drawing and erasing with a circular brush and allows exporting the canvas to a PNG image.
+It supports basic drawing and erasing with a circular brush and allows exporting the canvas to a BMP image.
 
 ---
 
@@ -10,7 +10,7 @@ It supports basic drawing and erasing with a circular brush and allows exporting
 - Draw using the left mouse button  
 - Erase using the right mouse button  
 - Adjustable circular brush size (mouse wheel)  
-- Export canvas to PNG (`Ctrl + S`)  
+- Export canvas to BMP (`Ctrl + S`)  
 - Lightweight and minimal design  
 
 ---
@@ -30,7 +30,7 @@ Exported images are saved in the same directory as the executable.
 
 ## Screenshots
 
-![Drawing](Screenshots/Drawing.png)
+![Drawing](Screenshots/Drawing.BMP)
 
 ---
 

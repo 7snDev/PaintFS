@@ -1,10 +1,5 @@
 #include <SDL2/SDL.h>
 #include <stdbool.h>
-#include <stdio.h>
-#include "SDL_events.h"
-#include "SDL_keycode.h"
-#include "SDL_surface.h"
-#include "TinyPngOut.h"
 
 #define WIDTH 900
 #define HEIGHT 600
