@@ -61,7 +61,6 @@ make clean
 
 Current limitations and planned improvements:
 
-- GPU-accelerated rendering (SDL renderer instead of surface rendering)  
 - Undo / redo system  
 - Improved exporting workflow  
 - Multiple colors and better brush control  
