@@ -1,0 +1,75 @@
+## PaintFS
+
+PaintFS is a minimal paint application written in **C using SDL2**.  
+It supports basic drawing and erasing with a circular brush and allows exporting the canvas to a BMP image.
+
+---
+
+## Features
+
+- Draw using the left mouse button  
+- Erase using the right mouse button  
+- undo & redo using Ctrl Z & Ctrl Shift Z
+- GPU-Accelerated
+- Adjustable circular brush size (mouse wheel)  
+- Export canvas to BMP (`Ctrl + S`)  
+- Lightweight and minimal design  
+
+---
+
+## Controls
+
+| Action | Input |
+|---|---|
+| Draw | Left mouse button |
+| Erase | Right mouse button |
+| Change brush size | Mouse wheel |
+| Export image | Ctrl + S |
+| undo | Ctrl + Z |
+| redo | Ctrl + Shift + Z |
+
+Exported images are saved in the same directory as the executable.
+
+---
+
+## Screenshots
+
+![Drawing](screenshots/Drawing.png)
+
+---
+
+## Build
+
+### Requirements
+- GCC  
+- SDL2 development libraries  
+
+### Compile
+~~~
+make build
+~~~
+
+### Run
+~~~
+./PaintFS
+~~~
+
+### Clean build files
+~~~
+make clean
+~~~
+
+---
+
+## Project Status
+
+Current limitations and planned improvements:
+
+- Improved exporting workflow  
+- Multiple colors and better brush control  
+
+---
+
+## License
+
+[MIT License](LICENSE)
